@@ -19,7 +19,8 @@ provider "aws" {
   region = var.region
   default_tags {
     tags = {
-      Project = "<Terraform Basic Project>"
+      Project = "<Terraform Basic Project>",
+      Owner   = "woody.jeong"
     }
   }
 }
