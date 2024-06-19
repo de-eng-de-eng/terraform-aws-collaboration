@@ -20,7 +20,7 @@ provider "aws" {
   default_tags {
     tags = {
       Project = "<Terraform Basic Project>",
-      Owner   = "woody.jeong"
+      Owner   = "woody.jeong & hyejeong.jin"
     }
   }
 }
